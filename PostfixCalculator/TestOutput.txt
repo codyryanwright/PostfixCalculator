@@ -1,0 +1,133 @@
+This program accepts either infix or postfix integer math expressions and calculates them.
+
+    Menu
+ ----------
+1) LinkedStack
+2) ArrayStack
+3) Quit
+
+Choice: 1
+
+
+  LinkedStack
+ -------------
+
+Enter your expression: (Press Enter to Quit)
+3+4*5+(6*7+8)*9
+345*+67*8+9*+ = 473
+
+Enter your expression: (Press Enter to Quit)
+345*+67*8+9*+
+345*+67*8+9*+ = 473
+
+Enter your expression: (Press Enter to Quit)
+1-(2+3*4)/5
+1234*+5/- = -1
+
+Enter your expression: (Press Enter to Quit)
+(1+2)*(4-3)
+12+43-* = 3
+
+Enter your expression: (Press Enter to Quit)
+(4+8)*(6-5)/((3-2)*(2+2))
+48+65-*32-22+*/ = 3
+
+Enter your expression: (Press Enter to Quit)
+
+
+    Menu
+ ----------
+1) LinkedStack
+2) ArrayStack
+3) Quit
+
+Choice: 2
+
+
+  ArrayStack
+ ------------
+
+Enter your expression: (Press Enter to Quit)
+345*+67*8+9*+
+345*+67*8+9*+ = 473
+
+Enter your expression: (Press Enter to Quit)
+1234*+5/-
+1234*+5/- = -1
+
+Enter your expression: (Press Enter to Quit)
+12+43-*
+12+43-* = 3
+
+Enter your expression: (Press Enter to Quit)
+48+65-*32-22+*/
+48+65-*32-22+*/ = 3
+
+Enter your expression: (Press Enter to Quit)
+234+*
+234+* = 14
+
+Enter your expression: (Press Enter to Quit)
+72/
+72/ = 3
+
+Enter your expression: (Press Enter to Quit)
+512+4*+3-
+512+4*+3- = 14
+
+Enter your expression: (Press Enter to Quit)
+72%
+Malformed Expression: Illegal Character
+
+Enter your expression: (Press Enter to Quit)
+A2/
+Malformed Expression: Illegal Character
+
+Enter your expression: (Press Enter to Quit)
+72//
+Malformed Expression: Too Many Operators
+
+Enter your expression: (Press Enter to Quit)
+(23-
+Malformed Expression: Illegal Character
+
+Enter your expression: (Press Enter to Quit)
+1/(1-1)
+Malformed Expression: Divide by Zero
+
+Enter your expression: (Press Enter to Quit)
+10/
+Malformed Expression: Divide by Zero
+
+Enter your expression: (Press Enter to Quit)
++11
+Malformed Expression: Leading Operator
+
+Enter your expression: (Press Enter to Quit)
+1+
+Malformed Expression: Leading Operator
+
+Enter your expression: (Press Enter to Quit)
+11++
+Malformed Expression: Too Many Operators
+
+Enter your expression: (Press Enter to Quit)
+111+
+Malformed Expression: Missing Operator / Too Many Integers
+
+Enter your expression: (Press Enter to Quit)
+
+
+    Menu
+ ----------
+1) LinkedStack
+2) ArrayStack
+3) Quit
+
+Choice: a
+
+  Invalid Choice, Please enter option 1, 2, or 3 : 3
+
+--------------------------------
+Process exited after 490.8 seconds with return value 0
+Press any key to continue . . .
